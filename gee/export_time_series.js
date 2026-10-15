@@ -4,7 +4,7 @@
  * Replace samples with field polygons containing unique sample_id properties.
  * Export -> Python detector -> independent field validation.
  */
-var YEAR = 2024;
+var YEAR = 2025;
 var STEP_DAYS = 15;  // Match --step-days in the Python CLI.
 var PAD_DAYS = 180;
 var SCALE = 10;

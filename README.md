@@ -15,8 +15,12 @@ or field-validated. No crop-area maps or accuracy claims are presented.
 - Compare detected timing with Aus, Aman and Boro calendars.
 - Keep crop identity, calendar guidance and satellite observations distinct.
 
-The starter export uses **2024** and a user-drawn polygon. It is configurable for
-other years and areas; a polygon covering mixed fields is not a field observation.
+The study scope is **Bangladesh, calendar year 2025**. Use
+[the national district-batched export](gee/national_2025.js) for exploratory
+sampling across Bangladesh, or the field-polygon export for surveyed locations.
+Satellite acquisition includes **5 July 2024–29 June 2026** (end-exclusive
+30 June 2026) to capture cycles crossing the reporting-year boundaries.
+See [the national execution plan](docs/bangladesh-2025.md).
 
 ## Quick start
 
@@ -29,6 +33,7 @@ cd /workspace/bangladesh-crop-phenology  # or your own checkout
 export PYTHONPATH="$PWD/src"
 python -m unittest discover -s tests -v
 node --check gee/export_time_series.js
+node --check gee/national_2025.js
 ```
 
 Optional packaging installation: `python -m pip install -e .`.
@@ -48,6 +53,13 @@ are absent, and several source issues remain unresolved.
 
 ### 2. Export satellite time series
 
+For national coverage, begin with `gee/national_2025.js`: export one district,
+inspect coverage, then repeat for every district index. It requests up to 50
+historical-cropland sample points per district. The resulting sample analysis is
+not a national wall-to-wall crop map. See the execution plan for limitations.
+
+For surveyed field polygons:
+
 1. Open the [Earth Engine Code Editor](https://code.earthengine.google.com/)
    with an authorized account and configured Cloud project.
 2. Draw/import a polygon named `geometry`.
@@ -66,7 +78,7 @@ yet fuse radar observations into phenological estimates.
 
 ```bash
 PYTHONPATH=src python -m bdphenology.cli cycles data/raw/gee_timeseries.csv \
-  --year 2024 --step-days 15 --output data/derived/cycles.json
+  --year 2025 --step-days 15 --output data/derived/cycles.json
 ```
 
 To try an explicitly synthetic example:
