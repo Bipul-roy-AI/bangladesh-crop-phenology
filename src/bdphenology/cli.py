@@ -27,14 +27,29 @@ def main():
     r.add_argument("--prominence-db", type=float, default=3.0)
     r.add_argument("--step-days", type=int, default=15)
     r.add_argument("--plots", action="store_true", help="Requires matplotlib")
+    v = commands.add_parser("reference", help="Prepare blind reference-label worksheets")
+    v.add_argument("csv", help="GEE export with sample locations")
+    v.add_argument("--year", type=int, default=2025)
+    v.add_argument("--output-dir", required=True)
+    check = commands.add_parser("check-reference", help="Check entered annual reference labels")
+    check.add_argument("csv")
+    check.add_argument("--year", type=int, default=2025)
+    check.add_argument("--output", required=True)
     args = parser.parse_args()
+    if args.command == "reference":
+        from .reference import make_package
+        print(json.dumps(make_package(args.csv, args.output_dir, args.year), indent=2))
+        return
     if args.command == "radar":
         from .radar import write_analysis
         result = write_analysis(args.csv, args.output_dir, args.year,
                                 args.prominence_db, args.step_days, args.plots)
         print(json.dumps(result, indent=2))
         return
-    if args.command == "audit":
+    if args.command == "check-reference":
+        from .reference import check_reference
+        result = check_reference(args.csv, args.year)
+    elif args.command == "audit":
         result = audit(args.csv)
     else:
         grouped = defaultdict(list)

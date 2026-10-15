@@ -1,0 +1,14 @@
+{
+  "year": 2025,
+  "samples": 50,
+  "source_sha256": "0930feaa7b2de16b4583514039f71151aab129fa3a76128b726708a87c0c586f",
+  "reference_labels_entered": 0,
+  "planned_split": {
+    "calibration": 36,
+    "evaluation": 14
+  },
+  "spatial_blocks": 17,
+  "split_seed": 2025,
+  "block_size_degrees": 0.1,
+  "warning": "No reference labels or accuracy estimates have been generated."
+}

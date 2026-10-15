@@ -1,0 +1,955 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.94549459272025,
+          22.021949697807173
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_89.945495_22.021950",
+        "longitude": 89.94549459272025,
+        "latitude": 22.021949697807173,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "899_220",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.00747834732448,
+          22.139539168498423
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.007478_22.139539",
+        "longitude": 90.00747834732448,
+        "latitude": 22.139539168498423,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_221",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.00819699955179,
+          22.090401322457083
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.008197_22.090401",
+        "longitude": 90.00819699955179,
+        "latitude": 22.090401322457083,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_220",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.01376655431335,
+          22.096330203332272
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.013767_22.096330",
+        "longitude": 90.01376655431335,
+        "latitude": 22.096330203332272,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_220",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.04035668672327,
+          22.246079361194994
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.040357_22.246079",
+        "longitude": 90.04035668672327,
+        "latitude": 22.246079361194994,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_222",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.04969916567808,
+          21.9056178685137
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.049699_21.905618",
+        "longitude": 90.04969916567808,
+        "latitude": 21.9056178685137,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_219",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.05463989974078,
+          21.93678940887265
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.054640_21.936789",
+        "longitude": 90.05463989974078,
+        "latitude": 21.93678940887265,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_219",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.06128743284324,
+          22.072614679831517
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.061287_22.072615",
+        "longitude": 90.06128743284324,
+        "latitude": 22.072614679831517,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_220",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.0638925471672,
+          22.118788085435263
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.063893_22.118788",
+        "longitude": 90.0638925471672,
+        "latitude": 22.118788085435263,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_221",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.06470103092289,
+          22.25955409045679
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.064701_22.259554",
+        "longitude": 90.06470103092289,
+        "latitude": 22.25955409045679,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_222",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.07098923791176,
+          22.178975209471268
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.070989_22.178975",
+        "longitude": 90.07098923791176,
+        "latitude": 22.178975209471268,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_221",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.07610963503123,
+          22.05527719484801
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.076110_22.055277",
+        "longitude": 90.07610963503123,
+        "latitude": 22.05527719484801,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_220",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.07709778184375,
+          22.303302044793412
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.077098_22.303302",
+        "longitude": 90.07709778184375,
+        "latitude": 22.303302044793412,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_223",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.08311649424735,
+          21.9101094449343
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.083116_21.910109",
+        "longitude": 90.08311649424735,
+        "latitude": 21.9101094449343,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_219",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.08599110315652,
+          22.224160468262482
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.085991_22.224160",
+        "longitude": 90.08599110315652,
+        "latitude": 22.224160468262482,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_222",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.08868604900891,
+          22.252906557354308
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.088686_22.252907",
+        "longitude": 90.08868604900891,
+        "latitude": 22.252906557354308,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_222",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.09344712001473,
+          22.000749457101954
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.093447_22.000749",
+        "longitude": 90.09344712001473,
+        "latitude": 22.000749457101954,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_220",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.09524375058294,
+          21.935711430531704
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.095244_21.935711",
+        "longitude": 90.09524375058294,
+        "latitude": 21.935711430531704,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "900_219",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.1185999479701,
+          21.949365822850318
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.118600_21.949366",
+        "longitude": 90.1185999479701,
+        "latitude": 21.949365822850318,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_219",
+        "planned_role": "evaluation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.13270349793072,
+          22.178705714886036
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.132703_22.178706",
+        "longitude": 90.13270349793072,
+        "latitude": 22.178705714886036,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_221",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.13387130780012,
+          22.329083693447643
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.133871_22.329084",
+        "longitude": 90.13387130780012,
+        "latitude": 22.329083693447643,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_223",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.1377340635218,
+          22.053211069694534
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.137734_22.053211",
+        "longitude": 90.1377340635218,
+        "latitude": 22.053211069694534,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_220",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.14483075426637,
+          22.206822983278975
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.144831_22.206823",
+        "longitude": 90.14483075426637,
+        "latitude": 22.206822983278975,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_222",
+        "planned_role": "evaluation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.14698671094823,
+          22.248774307047356
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.146987_22.248774",
+        "longitude": 90.14698671094823,
+        "latitude": 22.248774307047356,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_222",
+        "planned_role": "evaluation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.14761553164715,
+          22.23287412651844
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.147616_22.232874",
+        "longitude": 90.14761553164715,
+        "latitude": 22.23287412651844,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_222",
+        "planned_role": "evaluation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.14851384693122,
+          22.380108001585633
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.148514_22.380108",
+        "longitude": 90.14851384693122,
+        "latitude": 22.380108001585633,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_223",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.15013081444266,
+          22.027339589511897
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.150131_22.027340",
+        "longitude": 90.15013081444266,
+        "latitude": 22.027339589511897,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_220",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.15237660265296,
+          22.196043199869543
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.152377_22.196043",
+        "longitude": 90.15237660265296,
+        "latitude": 22.196043199869543,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_221",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.15318508640866,
+          22.21859091350094
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.153185_22.218591",
+        "longitude": 90.15318508640866,
+        "latitude": 22.21859091350094,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_222",
+        "planned_role": "evaluation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.15345458099392,
+          22.023297170733358
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.153455_22.023297",
+        "longitude": 90.15345458099392,
+        "latitude": 22.023297170733358,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_220",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.15363424405075,
+          22.402026894518144
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.153634_22.402027",
+        "longitude": 90.15363424405075,
+        "latitude": 22.402026894518144,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_224",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.16585133191478,
+          22.06264338017779
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.165851_22.062643",
+        "longitude": 90.16585133191478,
+        "latitude": 22.06264338017779,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_220",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.17097172903425,
+          22.029944703835838
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.170972_22.029945",
+        "longitude": 90.17097172903425,
+        "latitude": 22.029944703835838,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_220",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.17348701182976,
+          22.23143682206385
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.173487_22.231437",
+        "longitude": 90.17348701182976,
+        "latitude": 22.23143682206385,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_222",
+        "planned_role": "evaluation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.17456499017072,
+          22.08914368105932
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.174565_22.089144",
+        "longitude": 90.17456499017072,
+        "latitude": 22.08914368105932,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_220",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.1826498277278,
+          22.04359909615446
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.182650_22.043599",
+        "longitude": 90.1826498277278,
+        "latitude": 22.04359909615446,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "901_220",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.20088562799543,
+          22.094443741235622
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.200886_22.094444",
+        "longitude": 90.20088562799543,
+        "latitude": 22.094443741235622,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "902_220",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.20124495410909,
+          22.09076064857073
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.201245_22.090761",
+        "longitude": 90.20124495410909,
+        "latitude": 22.09076064857073,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "902_220",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.20241276397843,
+          22.19667202056842
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.202413_22.196672",
+        "longitude": 90.20241276397843,
+        "latitude": 22.19667202056842,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "902_221",
+        "planned_role": "evaluation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.20762299262634,
+          22.470029361525995
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.207623_22.470029",
+        "longitude": 90.20762299262634,
+        "latitude": 22.470029361525995,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "902_224",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.21436035725719,
+          22.178705714886036
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.214360_22.178706",
+        "longitude": 90.21436035725719,
+        "latitude": 22.178705714886036,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "902_221",
+        "planned_role": "evaluation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.25002347403677,
+          22.227124908700077
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.250023_22.227125",
+        "longitude": 90.25002347403677,
+        "latitude": 22.227124908700077,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "902_222",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.26197106731553,
+          22.251559084428123
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.261971_22.251559",
+        "longitude": 90.26197106731553,
+        "latitude": 22.251559084428123,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "902_222",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.27023556792943,
+          22.039466845847507
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.270236_22.039467",
+        "longitude": 90.27023556792943,
+        "latitude": 22.039466845847507,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "902_220",
+        "planned_role": "calibration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.2720321984977,
+          22.149869794265797
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.272032_22.149870",
+        "longitude": 90.2720321984977,
+        "latitude": 22.149869794265797,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "902_221",
+        "planned_role": "evaluation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.2811051828673,
+          22.162446208243473
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.281105_22.162446",
+        "longitude": 90.2811051828673,
+        "latitude": 22.162446208243473,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "902_221",
+        "planned_role": "evaluation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.29619687964049,
+          22.191012634278472
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.296197_22.191013",
+        "longitude": 90.29619687964049,
+        "latitude": 22.191012634278472,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "902_221",
+        "planned_role": "evaluation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.3300633658518,
+          22.15777496876605
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.330063_22.157775",
+        "longitude": 90.3300633658518,
+        "latitude": 22.15777496876605,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "903_221",
+        "planned_role": "evaluation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.3315905018348,
+          22.17538194833479
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.331591_22.175382",
+        "longitude": 90.3315905018348,
+        "latitude": 22.17538194833479,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "903_221",
+        "planned_role": "evaluation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.33338713240306,
+          22.13082551024246
+        ]
+      },
+      "properties": {
+        "sample_id": "5761_90.333387_22.130826",
+        "longitude": 90.33338713240306,
+        "latitude": 22.13082551024246,
+        "district": "Barguna",
+        "year": 2025,
+        "spatial_block": "903_221",
+        "planned_role": "evaluation"
+      }
+    }
+  ]
+}

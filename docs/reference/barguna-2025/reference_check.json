@@ -1,0 +1,11 @@
+{
+  "year": 2025,
+  "rows": 50,
+  "status_counts": {
+    "unreviewed": 50
+  },
+  "errors": [],
+  "ready_sample_ids": [],
+  "accuracy": null,
+  "note": "Structural checks do not verify evidence quality or model accuracy."
+}

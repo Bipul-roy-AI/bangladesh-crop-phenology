@@ -110,6 +110,25 @@ Read the [Barguna radar results](docs/results/barguna-2025-radar.md). Candidate
 counts are not confirmed crop-cycle counts; all annual crop counts remain
 undetermined pending validation.
 
+### 5. Collect independent reference labels
+
+The [reference-labeling guide](docs/reference-labeling.md) and
+[blank Barguna worksheets](docs/reference/barguna-2025/) support crop
+identification by the project owner or another reviewer. Predictions are omitted
+from the reviewer forms. Record uncertain or partial knowledge explicitly.
+
+```bash
+PYTHONPATH=src python -m bdphenology.cli reference data/raw/gee_timeseries.csv \
+  --year 2025 --output-dir data/derived/reference_package
+PYTHONPATH=src python -m bdphenology.cli check-reference \
+  data/derived/reference_package/annual_reference.csv \
+  --year 2025 --output data/derived/reference_check.json
+```
+
+The generator refuses to overwrite a nonempty package; preserve entered labels.
+No accuracy score is computed until suitable reference evidence and model outputs
+exist. The current checker validates worksheet structure only.
+
 ## Repository structure
 
 | Path | Purpose |
