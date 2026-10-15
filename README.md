@@ -72,8 +72,9 @@ For surveyed field polygons:
 
 The export contains 15-day Sentinel-2 NDVI and Sentinel-1 VV/VH summaries.
 It retains missing optical intervals rather than inventing observations.
-Sentinel-1 is exported for interpretation; the initial detector does **not**
-yet fuse radar observations into phenological estimates.
+The NDVI-only detector does not use radar. The new radar-aware prototype
+compares VH events with optical episodes; it does not reconstruct missing NDVI
+or provide calibrated crop labels. See [radar methods](docs/radar-prototype.md).
 
 ### 3. Detect candidate cycles
 
@@ -94,6 +95,21 @@ cycles to the year of their peak; the export includes 180 days of padding on
 each side of the reporting year. An uncertain annual count is `null`, not zero.
 Dates are 15-day composite-bin approximations, not observed planting/harvest dates.
 
+### 4. Compare radar and optical candidates
+
+```bash
+PYTHONPATH=src python -m bdphenology.cli radar data/raw/gee_timeseries.csv \
+  --year 2025 --output-dir data/derived/radar_comparison --plots
+```
+
+Plotting requires matplotlib (`python -m pip install -e '.[plots]'`); omit
+`--plots` for standard-library-only analysis. Outputs include event evidence,
+uncertainty flags, threshold sensitivity and comparison plots.
+
+Read the [Barguna radar results](docs/results/barguna-2025-radar.md). Candidate
+counts are not confirmed crop-cycle counts; all annual crop counts remain
+undetermined pending validation.
+
 ## Repository structure
 
 | Path | Purpose |
@@ -111,8 +127,8 @@ Dates are 15-day composite-bin approximations, not observed planting/harvest dat
 - A vegetation cycle is not automatically a crop or rice season.
 - NDVI threshold defaults are hypotheses for calibration, not validated national
   parameters. Evergreen vegetation, weeds, floods and mixed pixels can mislead.
-- Optical gaps remain a major monsoon limitation; exported radar is not a proven
-  substitute for optical phenology in this prototype.
+- Optical gaps remain a major monsoon limitation. Radar-aware event comparison
+  is available, but it is not independently validated crop phenology.
 - Satellite green-up and decline do not equal exact transplanting and harvest.
 - Calendar seasons differ between references. This project retains dates rather
   than forcing every crop into a fixed season window.
@@ -140,7 +156,8 @@ was inspected as background; its scripts are not bundled.
 - [x] Inspect the first user-run Earth Engine export (Barguna)
 - [ ] Collect dated crop and field-boundary validation records
 - [ ] Calibrate parameters across contrasting agroecological zones
-- [ ] Evaluate radar/optical fusion against independent observations
+- [x] Implement radar-aware event comparison, uncertainty flags and plots
+- [ ] Calibrate and validate radar/optical integration against independent observations
 - [ ] Produce validated field and regional maps
 
 Code is MIT licensed. This does not grant rights to third-party datasets.

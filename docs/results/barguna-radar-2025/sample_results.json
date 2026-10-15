@@ -1,0 +1,3894 @@
+{
+  "5761_89.945495_22.021950": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 18,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 1,
+    "matched_event_count": 1,
+    "unmatched_radar_event_count": 0,
+    "candidate_event_count": 1,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "temporal_agreement_unvalidated",
+        "optical": {
+          "start_date": "2025-10-13",
+          "peak_date": "2025-10-28",
+          "end_date": "2025-11-27",
+          "duration_days": 45,
+          "peak_ndvi": 0.6329
+        },
+        "radar": {
+          "start_date": "2025-08-14",
+          "peak_date": "2025-10-13",
+          "end_date": "2026-02-10",
+          "duration_days": 180,
+          "vh_peak_db": -13.1814,
+          "rise_db": 3.55,
+          "fall_db": 5.988,
+          "prominence_db": 3.55,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "peak_difference_days": 15,
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.646923303604126,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.007478_22.139539": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 15,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 3,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 3,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-04-01",
+          "peak_date": "2025-05-01",
+          "end_date": "2025-08-29",
+          "duration_days": 150,
+          "vh_peak_db": -15.0188,
+          "rise_db": 4.6211,
+          "fall_db": 8.4067,
+          "prominence_db": 4.6211,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 2,
+        "near_peak_max_ndvi": 0.3507368564605713,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-05-31",
+          "peak_date": "2025-07-15",
+          "end_date": "2025-09-13",
+          "duration_days": 105,
+          "vh_peak_db": -13.5915,
+          "rise_db": 7.8236,
+          "fall_db": 10.5611,
+          "prominence_db": 7.8236,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 0,
+        "near_peak_max_ndvi": null,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event",
+          "no_optical_observation_within_30_days_of_peak"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-09-28",
+          "peak_date": "2025-11-27",
+          "end_date": "2026-01-11",
+          "duration_days": 105,
+          "vh_peak_db": -14.4116,
+          "rise_db": 9.741,
+          "fall_db": 6.6458,
+          "prominence_db": 6.6458,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8643874526023865,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.008197_22.090401": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 3,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 3,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2024-09-03",
+          "peak_date": "2025-01-01",
+          "end_date": "2025-01-31",
+          "duration_days": 150,
+          "vh_peak_db": -13.0329,
+          "rise_db": 4.349,
+          "fall_db": 8.3437,
+          "prominence_db": 4.349,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.6214507818222046,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-01-31",
+          "peak_date": "2025-05-16",
+          "end_date": "2025-06-30",
+          "duration_days": 150,
+          "vh_peak_db": -15.6508,
+          "rise_db": 5.7258,
+          "fall_db": 4.3309,
+          "prominence_db": 4.3309,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 3,
+        "near_peak_max_ndvi": 0.4865100085735321,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-07-15",
+          "peak_date": "2025-09-13",
+          "end_date": "2026-01-11",
+          "duration_days": 180,
+          "vh_peak_db": -14.6783,
+          "rise_db": 5.3034,
+          "fall_db": 5.1961,
+          "prominence_db": 5.1961,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 2,
+        "near_peak_max_ndvi": 0.8919505476951599,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.013767_22.096330": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 19,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 1,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-06-30",
+          "peak_date": "2025-07-30",
+          "end_date": "2025-11-27",
+          "duration_days": 150,
+          "vh_peak_db": -17.4456,
+          "rise_db": 4.0985,
+          "fall_db": 3.0009,
+          "prominence_db": 3.0009,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 0,
+        "near_peak_max_ndvi": null,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "no_optical_observation_within_30_days_of_peak"
+        ]
+      }
+    ]
+  },
+  "5761_90.040357_22.246079": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 16,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 3,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 3,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2024-10-18",
+          "peak_date": "2025-02-15",
+          "end_date": "2025-03-02",
+          "duration_days": 135,
+          "vh_peak_db": -17.3191,
+          "rise_db": 6.7974,
+          "fall_db": 5.5372,
+          "prominence_db": 5.5372,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.389399915933609,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-03-17",
+          "peak_date": "2025-05-16",
+          "end_date": "2025-08-14",
+          "duration_days": 150,
+          "vh_peak_db": -15.7089,
+          "rise_db": 7.1474,
+          "fall_db": 10.9588,
+          "prominence_db": 7.1474,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event",
+            "very_low_vh_water_or_noise_possible"
+          ]
+        },
+        "near_peak_optical_observations": 2,
+        "near_peak_max_ndvi": 0.46683353185653687,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event",
+          "very_low_vh_water_or_noise_possible"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-29",
+          "peak_date": "2025-11-27",
+          "end_date": "2026-03-12",
+          "duration_days": 195,
+          "vh_peak_db": -15.2794,
+          "rise_db": 11.3882,
+          "fall_db": 9.3242,
+          "prominence_db": 9.3242,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8193607926368713,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.049699_21.905618": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 19,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 2,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "optical_only_unvalidated",
+        "optical": {
+          "start_date": "2025-03-02",
+          "peak_date": "2025-03-02",
+          "end_date": "2025-04-16",
+          "duration_days": 45,
+          "peak_ndvi": 0.5963
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.6272240877151489,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-07-30",
+          "peak_date": "2025-11-27",
+          "end_date": "2026-01-26",
+          "duration_days": 180,
+          "vh_peak_db": -14.8764,
+          "rise_db": 9.7672,
+          "fall_db": 5.4504,
+          "prominence_db": 5.4504,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "very_low_vh_water_or_noise_possible"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.7574392557144165,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "very_low_vh_water_or_noise_possible"
+        ]
+      }
+    ]
+  },
+  "5761_90.054640_21.936789": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 16,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 1,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-07-30",
+          "peak_date": "2025-11-27",
+          "end_date": "2026-02-25",
+          "duration_days": 210,
+          "vh_peak_db": -14.9943,
+          "rise_db": 8.1005,
+          "fall_db": 4.1889,
+          "prominence_db": 4.1889,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.7114413380622864,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.061287_22.072615": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 18,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 1,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-05-16",
+          "peak_date": "2025-09-13",
+          "end_date": "2025-12-12",
+          "duration_days": 210,
+          "vh_peak_db": -12.6928,
+          "rise_db": 3.2602,
+          "fall_db": 5.5762,
+          "prominence_db": 3.2602,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 2,
+        "near_peak_max_ndvi": 0.4445283114910126,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      }
+    ]
+  },
+  "5761_90.063893_22.118788": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 16,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 0,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 0,
+    "candidate_event_count": 0,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": []
+  },
+  "5761_90.064701_22.259554": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 15,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 3,
+    "matched_event_count": 1,
+    "unmatched_radar_event_count": 2,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-02-15",
+          "peak_date": "2025-04-16",
+          "end_date": "2025-06-30",
+          "duration_days": 135,
+          "vh_peak_db": -15.5984,
+          "rise_db": 4.3545,
+          "fall_db": 8.4814,
+          "prominence_db": 4.3545,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 3,
+        "near_peak_max_ndvi": 0.7369914650917053,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-06-30",
+          "peak_date": "2025-08-29",
+          "end_date": "2025-12-27",
+          "duration_days": 180,
+          "vh_peak_db": -16.0005,
+          "rise_db": 8.0793,
+          "fall_db": 3.341,
+          "prominence_db": 3.341,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 1,
+        "near_peak_max_ndvi": 0.45736435055732727,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "temporal_agreement_unvalidated",
+        "optical": {
+          "start_date": "2025-10-13",
+          "peak_date": "2025-10-28",
+          "end_date": "2025-12-12",
+          "duration_days": 60,
+          "peak_ndvi": 0.7979
+        },
+        "radar": {
+          "start_date": "2025-06-30",
+          "peak_date": "2025-10-13",
+          "end_date": "2026-01-11",
+          "duration_days": 195,
+          "vh_peak_db": -16.0274,
+          "rise_db": 8.0524,
+          "fall_db": 3.5625,
+          "prominence_db": 3.5625,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "peak_difference_days": 15,
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.810440719127655,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.070989_22.178975": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 19,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 1,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-09-13",
+          "peak_date": "2025-12-27",
+          "end_date": "2026-01-11",
+          "duration_days": 120,
+          "vh_peak_db": -15.4465,
+          "rise_db": 3.0417,
+          "fall_db": 5.5507,
+          "prominence_db": 3.0417,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.549362301826477,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.076110_22.055277": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 18,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 3,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 3,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-01-31",
+          "peak_date": "2025-03-17",
+          "end_date": "2025-07-15",
+          "duration_days": 165,
+          "vh_peak_db": -13.7949,
+          "rise_db": 7.5638,
+          "fall_db": 7.1688,
+          "prominence_db": 7.1688,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.76203453540802,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-14",
+          "peak_date": "2025-10-28",
+          "end_date": "2026-01-11",
+          "duration_days": 150,
+          "vh_peak_db": -14.8993,
+          "rise_db": 8.6153,
+          "fall_db": 7.5988,
+          "prominence_db": 7.5988,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.9227895140647888,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-29",
+          "peak_date": "2025-12-27",
+          "end_date": "2026-01-11",
+          "duration_days": 135,
+          "vh_peak_db": -16.3153,
+          "rise_db": 4.2127,
+          "fall_db": 6.1829,
+          "prominence_db": 4.2127,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.6870049238204956,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.077098_22.303302": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 16,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 2,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 2,
+    "candidate_event_count": 2,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-29",
+          "peak_date": "2025-10-28",
+          "end_date": "2026-01-26",
+          "duration_days": 150,
+          "vh_peak_db": -14.3756,
+          "rise_db": 8.5672,
+          "fall_db": 6.8816,
+          "prominence_db": 6.8816,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8586345314979553,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-29",
+          "peak_date": "2025-12-27",
+          "end_date": "2026-01-26",
+          "duration_days": 150,
+          "vh_peak_db": -15.7162,
+          "rise_db": 7.2267,
+          "fall_db": 5.541,
+          "prominence_db": 5.541,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.737500011920929,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.083116_21.910109": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 3,
+    "matched_event_count": 1,
+    "unmatched_radar_event_count": 2,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "temporal_agreement_unvalidated",
+        "optical": {
+          "start_date": "2025-01-31",
+          "peak_date": "2025-02-15",
+          "end_date": "2025-04-16",
+          "duration_days": 75,
+          "peak_ndvi": 0.7736
+        },
+        "radar": {
+          "start_date": "2025-02-15",
+          "peak_date": "2025-04-01",
+          "end_date": "2025-06-30",
+          "duration_days": 135,
+          "vh_peak_db": -18.1116,
+          "rise_db": 3.6471,
+          "fall_db": 14.8949,
+          "prominence_db": 3.6471,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event",
+            "very_low_vh_water_or_noise_possible"
+          ]
+        },
+        "peak_difference_days": 45,
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8278145790100098,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event",
+          "very_low_vh_water_or_noise_possible"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-06-30",
+          "peak_date": "2025-10-13",
+          "end_date": "2026-01-26",
+          "duration_days": 210,
+          "vh_peak_db": -16.1515,
+          "rise_db": 16.8551,
+          "fall_db": 12.5934,
+          "prominence_db": 12.5934,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "very_low_vh_water_or_noise_possible"
+          ]
+        },
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.8841983675956726,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "very_low_vh_water_or_noise_possible"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-29",
+          "peak_date": "2025-12-12",
+          "end_date": "2026-01-26",
+          "duration_days": 150,
+          "vh_peak_db": -17.5403,
+          "rise_db": 3.8346,
+          "fall_db": 11.2045,
+          "prominence_db": 3.8346,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "very_low_vh_water_or_noise_possible"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.6412195563316345,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "very_low_vh_water_or_noise_possible"
+        ]
+      }
+    ]
+  },
+  "5761_90.085991_22.224160": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 3,
+    "matched_event_count": 1,
+    "unmatched_radar_event_count": 2,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-02-15",
+          "peak_date": "2025-05-01",
+          "end_date": "2025-08-29",
+          "duration_days": 195,
+          "vh_peak_db": -12.0882,
+          "rise_db": 13.4421,
+          "fall_db": 6.8728,
+          "prominence_db": 6.8728,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 3,
+        "near_peak_max_ndvi": 0.7075285911560059,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-03-17",
+          "peak_date": "2025-07-15",
+          "end_date": "2025-09-13",
+          "duration_days": 180,
+          "vh_peak_db": -11.7384,
+          "rise_db": 5.2622,
+          "fall_db": 9.1535,
+          "prominence_db": 5.2622,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 0,
+        "near_peak_max_ndvi": null,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event",
+          "no_optical_observation_within_30_days_of_peak"
+        ]
+      },
+      {
+        "evidence": "temporal_agreement_unvalidated",
+        "optical": {
+          "start_date": "2025-10-13",
+          "peak_date": "2025-10-28",
+          "end_date": "2026-01-11",
+          "duration_days": 90,
+          "peak_ndvi": 0.8294
+        },
+        "radar": {
+          "start_date": "2025-09-28",
+          "peak_date": "2025-11-27",
+          "end_date": "2026-01-26",
+          "duration_days": 120,
+          "vh_peak_db": -14.5053,
+          "rise_db": 6.3865,
+          "fall_db": 6.757,
+          "prominence_db": 6.3865,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "peak_difference_days": 30,
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8533333539962769,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.088686_22.252907": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 18,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 2,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-03-17",
+          "peak_date": "2025-07-15",
+          "end_date": "2025-08-14",
+          "duration_days": 150,
+          "vh_peak_db": -13.3033,
+          "rise_db": 5.0321,
+          "fall_db": 4.5759,
+          "prominence_db": 4.5759,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 1,
+        "near_peak_max_ndvi": 0.5423526763916016,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "optical_only_unvalidated",
+        "optical": {
+          "start_date": "2025-09-28",
+          "peak_date": "2025-09-28",
+          "end_date": "2025-12-12",
+          "duration_days": 75,
+          "peak_ndvi": 0.823
+        },
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.8240166902542114,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies"
+        ]
+      }
+    ]
+  },
+  "5761_90.093447_22.000749": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 4,
+    "matched_event_count": 1,
+    "unmatched_radar_event_count": 3,
+    "candidate_event_count": 4,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2024-09-03",
+          "peak_date": "2025-01-01",
+          "end_date": "2025-01-16",
+          "duration_days": 135,
+          "vh_peak_db": -17.042,
+          "rise_db": 5.8501,
+          "fall_db": 3.8054,
+          "prominence_db": 3.8054,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.649461030960083,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "temporal_agreement_unvalidated",
+        "optical": {
+          "start_date": "2025-03-02",
+          "peak_date": "2025-03-17",
+          "end_date": "2025-05-01",
+          "duration_days": 60,
+          "peak_ndvi": 0.6169
+        },
+        "radar": {
+          "start_date": "2025-01-31",
+          "peak_date": "2025-05-01",
+          "end_date": "2025-07-30",
+          "duration_days": 180,
+          "vh_peak_db": -13.7642,
+          "rise_db": 7.0831,
+          "fall_db": 5.5367,
+          "prominence_db": 5.5367,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "peak_difference_days": 45,
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.6168582439422607,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-14",
+          "peak_date": "2025-10-13",
+          "end_date": "2026-01-26",
+          "duration_days": 165,
+          "vh_peak_db": -14.8033,
+          "rise_db": 4.4976,
+          "fall_db": 7.5523,
+          "prominence_db": 4.4976,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.903908371925354,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-14",
+          "peak_date": "2025-12-12",
+          "end_date": "2026-01-26",
+          "duration_days": 165,
+          "vh_peak_db": -15.956,
+          "rise_db": 3.3449,
+          "fall_db": 6.3996,
+          "prominence_db": 3.3449,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8359550833702087,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.095244_21.935711": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 1,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-14",
+          "peak_date": "2025-09-28",
+          "end_date": "2026-01-11",
+          "duration_days": 150,
+          "vh_peak_db": -14.9046,
+          "rise_db": 4.4951,
+          "fall_db": 8.1389,
+          "prominence_db": 4.4951,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.896033525466919,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.118600_21.949366": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 18,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 3,
+    "matched_event_count": 1,
+    "unmatched_radar_event_count": 2,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "temporal_agreement_unvalidated",
+        "optical": {
+          "start_date": "2025-02-15",
+          "peak_date": "2025-03-17",
+          "end_date": "2025-05-01",
+          "duration_days": 75,
+          "peak_ndvi": 0.8019
+        },
+        "radar": {
+          "start_date": "2025-01-31",
+          "peak_date": "2025-04-01",
+          "end_date": "2025-06-30",
+          "duration_days": 150,
+          "vh_peak_db": -15.5241,
+          "rise_db": 4.3374,
+          "fall_db": 6.0285,
+          "prominence_db": 4.3374,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "peak_difference_days": 15,
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8146132230758667,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-06-30",
+          "peak_date": "2025-08-14",
+          "end_date": "2025-09-13",
+          "duration_days": 75,
+          "vh_peak_db": -16.4848,
+          "rise_db": 5.0679,
+          "fall_db": 3.8107,
+          "prominence_db": 3.8107,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 1,
+        "near_peak_max_ndvi": 0.667837917804718,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-06-30",
+          "peak_date": "2025-10-28",
+          "end_date": "2026-02-25",
+          "duration_days": 240,
+          "vh_peak_db": -15.0615,
+          "rise_db": 6.4911,
+          "fall_db": 4.7034,
+          "prominence_db": 4.7034,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8932983875274658,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.132703_22.178706": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 16,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 3,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 3,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2024-10-03",
+          "peak_date": "2025-01-01",
+          "end_date": "2025-02-15",
+          "duration_days": 135,
+          "vh_peak_db": -15.5194,
+          "rise_db": 10.2214,
+          "fall_db": 4.1912,
+          "prominence_db": 4.1912,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8528649210929871,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-02-15",
+          "peak_date": "2025-05-01",
+          "end_date": "2025-06-30",
+          "duration_days": 135,
+          "vh_peak_db": -14.586,
+          "rise_db": 5.1246,
+          "fall_db": 8.0385,
+          "prominence_db": 5.1246,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.6336765885353088,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-09-28",
+          "peak_date": "2025-12-27",
+          "end_date": "2026-02-10",
+          "duration_days": 135,
+          "vh_peak_db": -15.6135,
+          "rise_db": 8.0454,
+          "fall_db": 6.4075,
+          "prominence_db": 6.4075,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.7250339984893799,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.133871_22.329084": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 4,
+    "matched_event_count": 1,
+    "unmatched_radar_event_count": 3,
+    "candidate_event_count": 4,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2024-11-02",
+          "peak_date": "2025-03-02",
+          "end_date": "2025-03-17",
+          "duration_days": 135,
+          "vh_peak_db": -14.4888,
+          "rise_db": 3.1721,
+          "fall_db": 5.4713,
+          "prominence_db": 3.1721,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.5397580862045288,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-03-17",
+          "peak_date": "2025-05-01",
+          "end_date": "2025-08-29",
+          "duration_days": 165,
+          "vh_peak_db": -10.064,
+          "rise_db": 9.8962,
+          "fall_db": 13.5899,
+          "prominence_db": 9.8962,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event",
+            "very_low_vh_water_or_noise_possible"
+          ]
+        },
+        "near_peak_optical_observations": 3,
+        "near_peak_max_ndvi": 0.7682783603668213,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event",
+          "very_low_vh_water_or_noise_possible"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-05-31",
+          "peak_date": "2025-07-30",
+          "end_date": "2025-08-29",
+          "duration_days": 90,
+          "vh_peak_db": -12.8228,
+          "rise_db": 5.9753,
+          "fall_db": 10.831,
+          "prominence_db": 5.9753,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event",
+            "very_low_vh_water_or_noise_possible"
+          ]
+        },
+        "near_peak_optical_observations": 1,
+        "near_peak_max_ndvi": 0.583486020565033,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event",
+          "very_low_vh_water_or_noise_possible"
+        ]
+      },
+      {
+        "evidence": "temporal_agreement_unvalidated",
+        "optical": {
+          "start_date": "2025-10-13",
+          "peak_date": "2025-11-12",
+          "end_date": "2026-01-11",
+          "duration_days": 90,
+          "peak_ndvi": 0.8135
+        },
+        "radar": {
+          "start_date": "2025-09-28",
+          "peak_date": "2025-11-27",
+          "end_date": "2026-02-10",
+          "duration_days": 135,
+          "vh_peak_db": -13.1045,
+          "rise_db": 10.5493,
+          "fall_db": 8.957,
+          "prominence_db": 8.957,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "peak_difference_days": 15,
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8458383679389954,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.137734_22.053211": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 15,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 3,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 3,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-02-15",
+          "peak_date": "2025-04-16",
+          "end_date": "2025-08-14",
+          "duration_days": 180,
+          "vh_peak_db": -13.7043,
+          "rise_db": 8.3227,
+          "fall_db": 9.7109,
+          "prominence_db": 8.3227,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 3,
+        "near_peak_max_ndvi": 0.6016072630882263,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-29",
+          "peak_date": "2025-10-13",
+          "end_date": "2026-01-26",
+          "duration_days": 150,
+          "vh_peak_db": -17.8524,
+          "rise_db": 5.5628,
+          "fall_db": 4.6978,
+          "prominence_db": 4.6978,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.8723404407501221,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-29",
+          "peak_date": "2025-12-12",
+          "end_date": "2026-01-26",
+          "duration_days": 150,
+          "vh_peak_db": -15.2023,
+          "rise_db": 8.2129,
+          "fall_db": 7.3479,
+          "prominence_db": 7.3479,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.7837660908699036,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.144831_22.206823": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 16,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 1,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-29",
+          "peak_date": "2025-11-27",
+          "end_date": "2026-01-11",
+          "duration_days": 135,
+          "vh_peak_db": -11.9357,
+          "rise_db": 5.1148,
+          "fall_db": 8.9113,
+          "prominence_db": 5.1148,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8662794828414917,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.146987_22.248774": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 16,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 1,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-06-30",
+          "peak_date": "2025-10-28",
+          "end_date": "2026-01-26",
+          "duration_days": 210,
+          "vh_peak_db": -13.999,
+          "rise_db": 6.303,
+          "fall_db": 4.7477,
+          "prominence_db": 4.7477,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.7927084565162659,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.147616_22.232874": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 16,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 1,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-29",
+          "peak_date": "2025-11-27",
+          "end_date": "2026-02-25",
+          "duration_days": 180,
+          "vh_peak_db": -13.6403,
+          "rise_db": 8.5965,
+          "fall_db": 7.6801,
+          "prominence_db": 7.6801,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.7984589338302612,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.148514_22.380108": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 20,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 3,
+    "matched_event_count": 1,
+    "unmatched_radar_event_count": 2,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-03-02",
+          "peak_date": "2025-04-16",
+          "end_date": "2025-07-15",
+          "duration_days": 135,
+          "vh_peak_db": -12.739,
+          "rise_db": 6.9534,
+          "fall_db": 5.6043,
+          "prominence_db": 5.6043,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.7792299389839172,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "temporal_agreement_unvalidated",
+        "optical": {
+          "start_date": "2025-10-13",
+          "peak_date": "2025-10-28",
+          "end_date": "2026-01-11",
+          "duration_days": 90,
+          "peak_ndvi": 0.8061
+        },
+        "radar": {
+          "start_date": "2025-09-28",
+          "peak_date": "2025-10-28",
+          "end_date": "2026-02-25",
+          "duration_days": 150,
+          "vh_peak_db": -15.7548,
+          "rise_db": 4.6165,
+          "fall_db": 7.4573,
+          "prominence_db": 4.6165,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "peak_difference_days": 0,
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8339237570762634,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-09-28",
+          "peak_date": "2025-12-12",
+          "end_date": "2026-02-25",
+          "duration_days": 150,
+          "vh_peak_db": -16.2906,
+          "rise_db": 4.0808,
+          "fall_db": 6.9216,
+          "prominence_db": 4.0808,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8339237570762634,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.150131_22.027340": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 2,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "optical_only_unvalidated",
+        "optical": {
+          "start_date": "2025-03-17",
+          "peak_date": "2025-04-01",
+          "end_date": "2025-05-01",
+          "duration_days": 45,
+          "peak_ndvi": 0.5713
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.5713621377944946,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-06-30",
+          "peak_date": "2025-10-13",
+          "end_date": "2025-12-27",
+          "duration_days": 180,
+          "vh_peak_db": -14.2921,
+          "rise_db": 5.5327,
+          "fall_db": 3.0764,
+          "prominence_db": 3.0764,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8233233690261841,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.152377_22.196043": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 2,
+    "matched_event_count": 1,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 2,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-06-30",
+          "peak_date": "2025-07-30",
+          "end_date": "2025-09-13",
+          "duration_days": 75,
+          "vh_peak_db": -14.7581,
+          "rise_db": 9.2443,
+          "fall_db": 3.6393,
+          "prominence_db": 3.6393,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 1,
+        "near_peak_max_ndvi": 0.4720110595226288,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "temporal_agreement_unvalidated",
+        "optical": {
+          "start_date": "2025-09-28",
+          "peak_date": "2025-10-28",
+          "end_date": "2025-12-27",
+          "duration_days": 90,
+          "peak_ndvi": 0.8013
+        },
+        "radar": {
+          "start_date": "2025-06-30",
+          "peak_date": "2025-10-28",
+          "end_date": "2026-02-10",
+          "duration_days": 225,
+          "vh_peak_db": -16.4913,
+          "rise_db": 7.5111,
+          "fall_db": 3.1738,
+          "prominence_db": 3.1738,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "peak_difference_days": 0,
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8246785998344421,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.153185_22.218591": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 16,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 2,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 2,
+    "candidate_event_count": 2,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-02-15",
+          "peak_date": "2025-05-16",
+          "end_date": "2025-08-29",
+          "duration_days": 195,
+          "vh_peak_db": -12.1831,
+          "rise_db": 6.6202,
+          "fall_db": 7.3536,
+          "prominence_db": 6.6202,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 2,
+        "near_peak_max_ndvi": 0.6893976926803589,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-09-13",
+          "peak_date": "2025-11-27",
+          "end_date": "2026-02-10",
+          "duration_days": 150,
+          "vh_peak_db": -15.2797,
+          "rise_db": 4.2569,
+          "fall_db": 6.1023,
+          "prominence_db": 4.2569,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8310896158218384,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.153455_22.023297": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 2,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 2,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "optical_only_unvalidated",
+        "optical": {
+          "start_date": "2025-03-02",
+          "peak_date": "2025-03-17",
+          "end_date": "2025-05-01",
+          "duration_days": 60,
+          "peak_ndvi": 0.8149
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8290765285491943,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-02-15",
+          "peak_date": "2025-05-16",
+          "end_date": "2025-08-14",
+          "duration_days": 180,
+          "vh_peak_db": -14.1916,
+          "rise_db": 7.874,
+          "fall_db": 8.1867,
+          "prominence_db": 7.874,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 2,
+        "near_peak_max_ndvi": 0.7447105050086975,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-14",
+          "peak_date": "2025-10-13",
+          "end_date": "2025-12-27",
+          "duration_days": 135,
+          "vh_peak_db": -15.1699,
+          "rise_db": 7.2083,
+          "fall_db": 5.8459,
+          "prominence_db": 5.8459,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8947742581367493,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.153634_22.402027": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 16,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 1,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-29",
+          "peak_date": "2025-12-27",
+          "end_date": "2026-03-27",
+          "duration_days": 210,
+          "vh_peak_db": -13.8304,
+          "rise_db": 9.0319,
+          "fall_db": 9.8371,
+          "prominence_db": 9.0319,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.7522422075271606,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.165851_22.062643": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 3,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 3,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-01-16",
+          "peak_date": "2025-05-01",
+          "end_date": "2025-08-29",
+          "duration_days": 225,
+          "vh_peak_db": -16.1771,
+          "rise_db": 3.0316,
+          "fall_db": 7.3958,
+          "prominence_db": 3.0316,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.689414381980896,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-06-30",
+          "peak_date": "2025-07-30",
+          "end_date": "2025-08-29",
+          "duration_days": 60,
+          "vh_peak_db": -15.9413,
+          "rise_db": 7.4399,
+          "fall_db": 7.6316,
+          "prominence_db": 7.4399,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 0,
+        "near_peak_max_ndvi": null,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "no_optical_observation_within_30_days_of_peak"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-09-13",
+          "peak_date": "2025-11-12",
+          "end_date": "2026-01-26",
+          "duration_days": 135,
+          "vh_peak_db": -14.8765,
+          "rise_db": 8.6964,
+          "fall_db": 8.1215,
+          "prominence_db": 8.1215,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8708609938621521,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.170972_22.029945": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 2,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "optical_only_unvalidated",
+        "optical": {
+          "start_date": "2024-12-17",
+          "peak_date": "2025-01-16",
+          "end_date": "2025-01-31",
+          "duration_days": 45,
+          "peak_ndvi": 0.6169
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.6254046559333801,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-03-02",
+          "peak_date": "2025-04-16",
+          "end_date": "2025-07-15",
+          "duration_days": 135,
+          "vh_peak_db": -14.098,
+          "rise_db": 5.1792,
+          "fall_db": 3.1091,
+          "prominence_db": 3.1091,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.7882267236709595,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      }
+    ]
+  },
+  "5761_90.173487_22.231437": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 1,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-06-30",
+          "peak_date": "2025-08-14",
+          "end_date": "2025-12-12",
+          "duration_days": 165,
+          "vh_peak_db": -11.8867,
+          "rise_db": 4.758,
+          "fall_db": 4.0709,
+          "prominence_db": 4.0709,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 1,
+        "near_peak_max_ndvi": 0.6069614291191101,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.174565_22.089144": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 18,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 1,
+    "matched_event_count": 1,
+    "unmatched_radar_event_count": 0,
+    "candidate_event_count": 1,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "temporal_agreement_unvalidated",
+        "optical": {
+          "start_date": "2025-09-28",
+          "peak_date": "2025-10-13",
+          "end_date": "2025-11-27",
+          "duration_days": 60,
+          "peak_ndvi": 0.7969
+        },
+        "radar": {
+          "start_date": "2025-07-30",
+          "peak_date": "2025-10-28",
+          "end_date": "2026-02-10",
+          "duration_days": 195,
+          "vh_peak_db": -14.5017,
+          "rise_db": 5.5859,
+          "fall_db": 4.9198,
+          "prominence_db": 4.9198,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "peak_difference_days": 15,
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8158900141716003,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.182650_22.043599": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 18,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 3,
+    "matched_event_count": 1,
+    "unmatched_radar_event_count": 2,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "temporal_agreement_unvalidated",
+        "optical": {
+          "start_date": "2025-01-31",
+          "peak_date": "2025-02-15",
+          "end_date": "2025-05-01",
+          "duration_days": 90,
+          "peak_ndvi": 0.8182
+        },
+        "radar": {
+          "start_date": "2025-01-01",
+          "peak_date": "2025-03-02",
+          "end_date": "2025-06-30",
+          "duration_days": 180,
+          "vh_peak_db": -16.2809,
+          "rise_db": 4.7993,
+          "fall_db": 3.428,
+          "prominence_db": 3.428,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "peak_difference_days": 15,
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.854489266872406,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-01-16",
+          "peak_date": "2025-05-16",
+          "end_date": "2025-07-15",
+          "duration_days": 180,
+          "vh_peak_db": -14.3931,
+          "rise_db": 5.8592,
+          "fall_db": 10.2026,
+          "prominence_db": 5.8592,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 3,
+        "near_peak_max_ndvi": 0.4183938801288605,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-07-30",
+          "peak_date": "2025-10-28",
+          "end_date": "2026-01-11",
+          "duration_days": 165,
+          "vh_peak_db": -15.27,
+          "rise_db": 9.3257,
+          "fall_db": 8.6351,
+          "prominence_db": 8.6351,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.9035136103630066,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.200886_22.094444": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 18,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 1,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-03-02",
+          "peak_date": "2025-05-16",
+          "end_date": "2025-06-30",
+          "duration_days": 120,
+          "vh_peak_db": -12.6185,
+          "rise_db": 6.4186,
+          "fall_db": 8.9907,
+          "prominence_db": 6.4186,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 3,
+        "near_peak_max_ndvi": 0.6107466220855713,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      }
+    ]
+  },
+  "5761_90.201245_22.090761": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 1,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-06-30",
+          "peak_date": "2025-08-29",
+          "end_date": "2025-09-13",
+          "duration_days": 75,
+          "vh_peak_db": -14.8439,
+          "rise_db": 3.0304,
+          "fall_db": 4.4807,
+          "prominence_db": 3.0304,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 2,
+        "near_peak_max_ndvi": 0.7750909924507141,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.202413_22.196672": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 18,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 2,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-02-15",
+          "peak_date": "2025-05-01",
+          "end_date": "2025-06-30",
+          "duration_days": 135,
+          "vh_peak_db": -13.3264,
+          "rise_db": 8.3846,
+          "fall_db": 4.364,
+          "prominence_db": 4.364,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.4301132559776306,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "optical_only_unvalidated",
+        "optical": {
+          "start_date": "2025-10-13",
+          "peak_date": "2025-10-28",
+          "end_date": "2025-12-27",
+          "duration_days": 75,
+          "peak_ndvi": 0.8246
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8566074371337891,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies"
+        ]
+      }
+    ]
+  },
+  "5761_90.207623_22.470029": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 2,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 2,
+    "candidate_event_count": 2,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-01-31",
+          "peak_date": "2025-05-01",
+          "end_date": "2025-06-30",
+          "duration_days": 150,
+          "vh_peak_db": -16.6369,
+          "rise_db": 3.178,
+          "fall_db": 10.9635,
+          "prominence_db": 3.178,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 2,
+        "near_peak_max_ndvi": 0.3420198857784271,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event",
+          "weak_near_peak_vegetation_signal"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-14",
+          "peak_date": "2025-11-27",
+          "end_date": "2026-02-10",
+          "duration_days": 180,
+          "vh_peak_db": -15.655,
+          "rise_db": 7.5725,
+          "fall_db": 8.7069,
+          "prominence_db": 7.5725,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8077365756034851,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.214360_22.178706": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 18,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 3,
+    "matched_event_count": 1,
+    "unmatched_radar_event_count": 2,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-01-31",
+          "peak_date": "2025-05-01",
+          "end_date": "2025-05-31",
+          "duration_days": 120,
+          "vh_peak_db": -14.261,
+          "rise_db": 6.7895,
+          "fall_db": 6.5524,
+          "prominence_db": 6.5524,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.460885226726532,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-05-31",
+          "peak_date": "2025-07-30",
+          "end_date": "2025-09-13",
+          "duration_days": 105,
+          "vh_peak_db": -15.0744,
+          "rise_db": 5.739,
+          "fall_db": 7.9077,
+          "prominence_db": 5.739,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 0,
+        "near_peak_max_ndvi": null,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event",
+          "no_optical_observation_within_30_days_of_peak"
+        ]
+      },
+      {
+        "evidence": "temporal_agreement_unvalidated",
+        "optical": {
+          "start_date": "2025-09-28",
+          "peak_date": "2025-10-28",
+          "end_date": "2025-12-27",
+          "duration_days": 90,
+          "peak_ndvi": 0.8541
+        },
+        "radar": {
+          "start_date": "2025-09-28",
+          "peak_date": "2025-11-27",
+          "end_date": "2026-01-11",
+          "duration_days": 105,
+          "vh_peak_db": -15.13,
+          "rise_db": 7.8521,
+          "fall_db": 4.3552,
+          "prominence_db": 4.3552,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "peak_difference_days": 30,
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8707883954048157,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.250023_22.227125": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 16,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 3,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 3,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-02-15",
+          "peak_date": "2025-05-01",
+          "end_date": "2025-07-30",
+          "duration_days": 165,
+          "vh_peak_db": -12.5162,
+          "rise_db": 12.0418,
+          "fall_db": 14.8465,
+          "prominence_db": 12.0418,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event",
+            "very_low_vh_water_or_noise_possible"
+          ]
+        },
+        "near_peak_optical_observations": 3,
+        "near_peak_max_ndvi": 0.499207466840744,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event",
+          "very_low_vh_water_or_noise_possible"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-14",
+          "peak_date": "2025-10-28",
+          "end_date": "2026-01-26",
+          "duration_days": 165,
+          "vh_peak_db": -15.7522,
+          "rise_db": 11.6105,
+          "fall_db": 8.2075,
+          "prominence_db": 8.2075,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.8566860556602478,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-29",
+          "peak_date": "2025-12-27",
+          "end_date": "2026-01-26",
+          "duration_days": 150,
+          "vh_peak_db": -15.8938,
+          "rise_db": 10.2618,
+          "fall_db": 8.0659,
+          "prominence_db": 8.0659,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.6509748101234436,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.261971_22.251559": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 15,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 2,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 2,
+    "candidate_event_count": 2,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-02-15",
+          "peak_date": "2025-05-01",
+          "end_date": "2025-08-14",
+          "duration_days": 180,
+          "vh_peak_db": -13.9769,
+          "rise_db": 9.3959,
+          "fall_db": 12.2082,
+          "prominence_db": 9.3959,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 2,
+        "near_peak_max_ndvi": 0.6441547870635986,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-29",
+          "peak_date": "2025-12-12",
+          "end_date": "2026-01-26",
+          "duration_days": 150,
+          "vh_peak_db": -15.4987,
+          "rise_db": 10.6864,
+          "fall_db": 7.7843,
+          "prominence_db": 7.7843,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.823750376701355,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.270236_22.039467": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 1,
+    "radar_event_count": 3,
+    "matched_event_count": 1,
+    "unmatched_radar_event_count": 2,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-04-01",
+          "peak_date": "2025-04-16",
+          "end_date": "2025-05-16",
+          "duration_days": 45,
+          "vh_peak_db": -17.6326,
+          "rise_db": 3.0658,
+          "fall_db": 8.3699,
+          "prominence_db": 3.0658,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "very_low_vh_water_or_noise_possible"
+          ]
+        },
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.2285827100276947,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "very_low_vh_water_or_noise_possible",
+          "weak_near_peak_vegetation_signal"
+        ]
+      },
+      {
+        "evidence": "temporal_agreement_unvalidated",
+        "optical": {
+          "start_date": "2025-09-28",
+          "peak_date": "2025-10-13",
+          "end_date": "2025-12-12",
+          "duration_days": 75,
+          "peak_ndvi": 0.7968
+        },
+        "radar": {
+          "start_date": "2025-08-29",
+          "peak_date": "2025-10-28",
+          "end_date": "2026-02-10",
+          "duration_days": 165,
+          "vh_peak_db": -15.5851,
+          "rise_db": 5.8709,
+          "fall_db": 3.2665,
+          "prominence_db": 3.2665,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "peak_difference_days": 15,
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8031548857688904,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-08-29",
+          "peak_date": "2025-12-27",
+          "end_date": "2026-04-11",
+          "duration_days": 225,
+          "vh_peak_db": -17.0668,
+          "rise_db": 4.3892,
+          "fall_db": 4.2034,
+          "prominence_db": 4.2034,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.5723763108253479,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.272032_22.149870": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 16,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 2,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 2,
+    "candidate_event_count": 2,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-04-01",
+          "peak_date": "2025-05-16",
+          "end_date": "2025-06-30",
+          "duration_days": 90,
+          "vh_peak_db": -17.0407,
+          "rise_db": 4.2219,
+          "fall_db": 8.8912,
+          "prominence_db": 4.2219,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 1,
+        "near_peak_max_ndvi": 0.44622817635536194,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-06-30",
+          "peak_date": "2025-10-13",
+          "end_date": "2026-01-26",
+          "duration_days": 210,
+          "vh_peak_db": -15.119,
+          "rise_db": 10.8129,
+          "fall_db": 5.468,
+          "prominence_db": 5.468,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8919066786766052,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.281105_22.162446": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 15,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 3,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 3,
+    "candidate_event_count": 3,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-01-31",
+          "peak_date": "2025-03-17",
+          "end_date": "2025-05-31",
+          "duration_days": 120,
+          "vh_peak_db": -15.3147,
+          "rise_db": 8.5409,
+          "fall_db": 3.581,
+          "prominence_db": 3.581,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.8372716903686523,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-01-31",
+          "peak_date": "2025-05-16",
+          "end_date": "2025-08-29",
+          "duration_days": 210,
+          "vh_peak_db": -15.2829,
+          "rise_db": 8.5728,
+          "fall_db": 5.7449,
+          "prominence_db": 5.7449,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 1,
+        "near_peak_max_ndvi": 0.2081766128540039,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event",
+          "weak_near_peak_vegetation_signal"
+        ]
+      },
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-09-13",
+          "peak_date": "2025-12-12",
+          "end_date": "2026-01-26",
+          "duration_days": 135,
+          "vh_peak_db": -15.9902,
+          "rise_db": 5.0376,
+          "fall_db": 6.8769,
+          "prominence_db": 5.0376,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold"
+          ]
+        },
+        "near_peak_optical_observations": 5,
+        "near_peak_max_ndvi": 0.8161401152610779,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold"
+        ]
+      }
+    ]
+  },
+  "5761_90.296197_22.191013": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 16,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 1,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-05-31",
+          "peak_date": "2025-09-28",
+          "end_date": "2026-01-11",
+          "duration_days": 225,
+          "vh_peak_db": -11.7689,
+          "rise_db": 4.3795,
+          "fall_db": 5.8775,
+          "prominence_db": 4.3795,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 4,
+        "near_peak_max_ndvi": 0.8400148153305054,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event"
+        ]
+      }
+    ]
+  },
+  "5761_90.330063_22.157775": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 15,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 0,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 0,
+    "candidate_event_count": 0,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": []
+  },
+  "5761_90.331591_22.175382": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 0,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 0,
+    "candidate_event_count": 0,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": []
+  },
+  "5761_90.333387_22.130826": {
+    "district": "Barguna",
+    "optical_status": "incomplete_or_gapped",
+    "target_composites": 25,
+    "valid_optical_composites": 17,
+    "valid_radar_composites": 24,
+    "optical_episode_count": 0,
+    "radar_event_count": 1,
+    "matched_event_count": 0,
+    "unmatched_radar_event_count": 1,
+    "candidate_event_count": 1,
+    "annual_crop_cycle_count": null,
+    "status": "exploratory_unvalidated",
+    "flags": [
+      "no_independent_crop_validation",
+      "historical_2021_sampling_frame",
+      "uncalibrated_detection_parameters",
+      "radar_sensitive_to_water_and_soil_moisture",
+      "optical_gaps",
+      "radar_gaps",
+      "single_pixel_sample_not_field_mean"
+    ],
+    "events": [
+      {
+        "evidence": "radar_only_unvalidated",
+        "radar": {
+          "start_date": "2025-01-16",
+          "peak_date": "2025-05-16",
+          "end_date": "2025-06-30",
+          "duration_days": 165,
+          "vh_peak_db": -14.2477,
+          "rise_db": 5.7341,
+          "fall_db": 4.7176,
+          "prominence_db": 4.7176,
+          "flags": [
+            "radar_pattern_not_crop_identity",
+            "uncalibrated_radar_threshold",
+            "radar_gap_within_event"
+          ]
+        },
+        "near_peak_optical_observations": 2,
+        "near_peak_max_ndvi": 0.2971179187297821,
+        "flags": [
+          "no_independent_crop_validation",
+          "dates_are_composite_proxies",
+          "radar_pattern_not_crop_identity",
+          "uncalibrated_radar_threshold",
+          "radar_gap_within_event",
+          "weak_near_peak_vegetation_signal"
+        ]
+      }
+    ]
+  }
+}

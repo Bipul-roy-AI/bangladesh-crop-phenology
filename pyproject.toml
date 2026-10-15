@@ -9,6 +9,9 @@ description = "Transparent Bangladesh crop-calendar auditing and vegetation-cycl
 requires-python = ">=3.10"
 dependencies = []
 
+[project.optional-dependencies]
+plots = ["matplotlib>=3.7"]
+
 [project.scripts]
 bdphenology = "bdphenology.cli:main"
 

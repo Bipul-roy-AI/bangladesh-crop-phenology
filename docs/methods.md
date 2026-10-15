@@ -32,8 +32,9 @@ cadence gaps, incomplete episodes or insufficient annual coverage result in a
 null annual count. Complete episodes can still be inspected separately.
 This conservatism may exclude otherwise useful seasons during the monsoon.
 
-No crop classifier, phenological-stage model, field segmentation or operational
-radar/optical fusion is implemented yet. The code does not calculate district-wide
+A separate [radar-aware event comparison](radar-prototype.md) is now available.
+No validated crop classifier, phenological-stage model, field segmentation or
+operational radar/optical fusion is implemented yet. The code does not calculate district-wide
 cropping intensity from the provided agricultural table.
 
 ## Validation required before publication of maps

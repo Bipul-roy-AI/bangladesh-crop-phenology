@@ -20,7 +20,20 @@ def main():
     c.add_argument("--output", required=True)
     c.add_argument("--min-amplitude", type=float, default=0.20)
     c.add_argument("--step-days", type=int, default=15)
+    r = commands.add_parser("radar", help="Exploratory VH/NDVI candidate comparison")
+    r.add_argument("csv")
+    r.add_argument("--year", type=int, required=True)
+    r.add_argument("--output-dir", required=True)
+    r.add_argument("--prominence-db", type=float, default=3.0)
+    r.add_argument("--step-days", type=int, default=15)
+    r.add_argument("--plots", action="store_true", help="Requires matplotlib")
     args = parser.parse_args()
+    if args.command == "radar":
+        from .radar import write_analysis
+        result = write_analysis(args.csv, args.output_dir, args.year,
+                                args.prominence_db, args.step_days, args.plots)
+        print(json.dumps(result, indent=2))
+        return
     if args.command == "audit":
         result = audit(args.csv)
     else:

@@ -1,0 +1,55 @@
+{
+  "year": 2025,
+  "samples": 50,
+  "source_sha256": "0930feaa7b2de16b4583514039f71151aab129fa3a76128b726708a87c0c586f",
+  "parameters": {
+    "prominence_db": 3.0,
+    "step_days": 15,
+    "flank_days": 120,
+    "peak_separation_days": 45,
+    "match_days": 45,
+    "near_peak_ndvi_screen": 0.35
+  },
+  "optical_episodes": 19,
+  "radar_events": 94,
+  "temporally_matched_events": 13,
+  "unmatched_radar_events": 81,
+  "candidate_events_after_matching": 100,
+  "validated_annual_crop_counts": 0,
+  "sample_flag_counts": {
+    "no_independent_crop_validation": 50,
+    "historical_2021_sampling_frame": 50,
+    "uncalibrated_detection_parameters": 50,
+    "radar_sensitive_to_water_and_soil_moisture": 50,
+    "optical_gaps": 50,
+    "radar_gaps": 50,
+    "single_pixel_sample_not_field_mean": 50
+  },
+  "event_flag_counts": {
+    "no_independent_crop_validation": 100,
+    "dates_are_composite_proxies": 100,
+    "radar_pattern_not_crop_identity": 94,
+    "uncalibrated_radar_threshold": 94,
+    "radar_gap_within_event": 34,
+    "no_optical_observation_within_30_days_of_peak": 5,
+    "very_low_vh_water_or_noise_possible": 9,
+    "weak_near_peak_vegetation_signal": 4
+  },
+  "threshold_sensitivity": [
+    {
+      "prominence_db": 2.0,
+      "radar_events": 127,
+      "samples_with_events": 50
+    },
+    {
+      "prominence_db": 3.0,
+      "radar_events": 94,
+      "samples_with_events": 47
+    },
+    {
+      "prominence_db": 4.0,
+      "radar_events": 71,
+      "samples_with_events": 39
+    }
+  ]
+}
