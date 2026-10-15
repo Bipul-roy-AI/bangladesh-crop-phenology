@@ -1,0 +1,133 @@
+# Bangladesh Crop Phenology
+
+An initial research workflow for detecting candidate vegetation growth cycles in
+Bangladesh using Google Earth Engine and checking the supporting AgriclimateBD
+crop-calendar dataset.
+
+**Status: research prototype.** Local processing is tested with synthetic series
+and the supplied AgriclimateBD CSV. Earth Engine exports have not been executed
+or field-validated. No crop-area maps or accuracy claims are presented.
+
+## Research scope
+
+- Estimate green-up, peak growth, decline and candidate cycle duration.
+- Investigate single, double and triple cropping after independent validation.
+- Compare detected timing with Aus, Aman and Boro calendars.
+- Keep crop identity, calendar guidance and satellite observations distinct.
+
+The starter export uses **2024** and a user-drawn polygon. It is configurable for
+other years and areas; a polygon covering mixed fields is not a field observation.
+
+## Quick start
+
+Python 3.10+ and Node.js (only for JavaScript syntax checks) are sufficient for
+local checks. The Python tools use the standard library: no API key or package
+installation is required for those operations.
+
+```bash
+cd /workspace/bangladesh-crop-phenology  # or your own checkout
+export PYTHONPATH="$PWD/src"
+python -m unittest discover -s tests -v
+node --check gee/export_time_series.js
+```
+
+Optional packaging installation: `python -m pip install -e .`.
+
+### 1. Audit the reference dataset
+
+Keep the original CSV in `data/raw/AgriclimateBD.csv` (ignored by Git).
+
+```bash
+PYTHONPATH=src python -m bdphenology.cli audit data/raw/AgriclimateBD.csv \
+  --output data/derived/agriclimate_audit.json
+```
+
+See [the audited findings](docs/data-quality.md). Do not use this dataset as
+field-level training or validation data: observation year and field locations
+are absent, and several source issues remain unresolved.
+
+### 2. Export satellite time series
+
+1. Open the [Earth Engine Code Editor](https://code.earthengine.google.com/)
+   with an authorized account and configured Cloud project.
+2. Draw/import a polygon named `geometry`.
+3. Paste [gee/export_time_series.js](gee/export_time_series.js).
+4. Set the year and replace the demo sample with surveyed field polygons when
+   available. Every feature must have a unique `sample_id`.
+5. Inspect the Sentinel-1 relative-orbit coverage printed by the script.
+6. Run the export task and download the CSV to `data/raw/gee_timeseries.csv`.
+
+The export contains 15-day Sentinel-2 NDVI and Sentinel-1 VV/VH summaries.
+It retains missing optical intervals rather than inventing observations.
+Sentinel-1 is exported for interpretation; the initial detector does **not**
+yet fuse radar observations into phenological estimates.
+
+### 3. Detect candidate cycles
+
+```bash
+PYTHONPATH=src python -m bdphenology.cli cycles data/raw/gee_timeseries.csv \
+  --year 2024 --step-days 15 --output data/derived/cycles.json
+```
+
+To try an explicitly synthetic example:
+
+```bash
+PYTHONPATH=src python -m bdphenology.cli cycles examples/synthetic_timeseries.csv \
+  --year 2024 --output data/derived/synthetic_cycles.json
+```
+
+The detector requires observed rising and falling threshold crossings. It assigns
+cycles to the year of their peak; the export includes 180 days of padding on
+each side of the reporting year. An uncertain annual count is `null`, not zero.
+Dates are 15-day composite-bin approximations, not observed planting/harvest dates.
+
+## Repository structure
+
+| Path | Purpose |
+| --- | --- |
+| `gee/` | Earth Engine export script |
+| `src/bdphenology/` | CSV audit, cycle detection and CLI |
+| `tests/` | Synthetic signal and data-audit tests |
+| `examples/` | Clearly labelled synthetic input |
+| `docs/` | Methods, data quality and validation plan |
+| `data/raw/` | Local inputs, excluded from Git |
+| `data/derived/` | Local outputs, excluded from Git |
+
+## Interpretation and limitations
+
+- A vegetation cycle is not automatically a crop or rice season.
+- NDVI threshold defaults are hypotheses for calibration, not validated national
+  parameters. Evergreen vegetation, weeds, floods and mixed pixels can mislead.
+- Optical gaps remain a major monsoon limitation; exported radar is not a proven
+  substitute for optical phenology in this prototype.
+- Satellite green-up and decline do not equal exact transplanting and harvest.
+- Calendar seasons differ between references. This project retains dates rather
+  than forcing every crop into a fixed season window.
+- Sampling only a few polygons cannot establish district-wide cropping intensity.
+
+Read [methods and validation](docs/methods.md) before using outputs in research.
+
+## Data and attribution
+
+Satellite collections: `COPERNICUS/S2_SR_HARMONIZED` and `COPERNICUS/S1_GRD`.
+Consult their Earth Engine catalog documentation for processing and attribution.
+The supplied AgriclimateBD CSV and dictionary have not been redistributed:
+their license, source year, original agricultural units and climate extraction
+details still require confirmation.
+
+The implementation here is original starter code. Ahrari's
+[Earth Engine tutorial repository](https://github.com/AmirhosseinAhrari/GoogleEarthEngine)
+was inspected as background; its scripts are not bundled.
+
+## Development roadmap
+
+- [x] Reproducible reference-data audit
+- [x] Configurable satellite time-series export
+- [x] Conservative NDVI cycle detector and synthetic tests
+- [ ] Run the export in an authenticated Earth Engine project
+- [ ] Collect dated crop and field-boundary validation records
+- [ ] Calibrate parameters across contrasting agroecological zones
+- [ ] Evaluate radar/optical fusion against independent observations
+- [ ] Produce validated field and regional maps
+
+Code is MIT licensed. This does not grant rights to third-party datasets.
