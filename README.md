@@ -5,8 +5,9 @@ Bangladesh using Google Earth Engine and checking the supporting AgriclimateBD
 crop-calendar dataset.
 
 **Status: research prototype.** Local processing is tested with synthetic series
-and the supplied AgriclimateBD CSV. Earth Engine exports have not been executed
-or field-validated. No crop-area maps or accuracy claims are presented.
+and the supplied AgriclimateBD CSV. The first user-run Earth Engine export (Barguna) has been inspected and processed;
+see [the results and coverage limitations](docs/results/barguna-2025.md).
+No outputs are field-validated; no crop-area maps or accuracy claims are presented.
 
 ## Research scope
 
@@ -136,7 +137,7 @@ was inspected as background; its scripts are not bundled.
 - [x] Reproducible reference-data audit
 - [x] Configurable satellite time-series export
 - [x] Conservative NDVI cycle detector and synthetic tests
-- [ ] Run the export in an authenticated Earth Engine project
+- [x] Inspect the first user-run Earth Engine export (Barguna)
 - [ ] Collect dated crop and field-boundary validation records
 - [ ] Calibrate parameters across contrasting agroecological zones
 - [ ] Evaluate radar/optical fusion against independent observations
